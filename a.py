@@ -180,7 +180,7 @@ class PhoenixAI:
     def setup_api_client(self):
         """Set up the Groq API client"""
         try:
-            api_key = os.getenv("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")
+            api_key = os.getenv("GROQ_API_KEY")
             if not api_key:
                 logger.error("Missing GROQ_API_KEY environment variable")
                 st.session_state.api_error = "Missing API key. Please check your .env file."
