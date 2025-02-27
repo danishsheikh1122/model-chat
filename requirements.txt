@@ -1,2 +1,7 @@
 groq
 streamlit
+dotenv
+shelve
+time
+logging
+typing
