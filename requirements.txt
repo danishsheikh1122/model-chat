@@ -1,6 +1,6 @@
 groq
 streamlit
-dotenv
+python-dotenv
 shelve
 time
 logging
