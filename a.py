@@ -6,7 +6,8 @@ import shelve
 import time
 import logging
 from typing import Dict, List, Optional
-
+import os 
+os.system(pip install groq)
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("phoenix-ai")
